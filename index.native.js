@@ -155,7 +155,7 @@ const TinderCard = React.forwardRef(
         PanResponder.create({
           // Ask to be the responder:
           onStartShouldSetPanResponder: (evt, gestureState) => true,
-          onStartShouldSetPanResponderCapture: (evt, gestureState) => true,
+          onStartShouldSetPanResponderCapture: (evt, gestureState) => false,
           onMoveShouldSetPanResponder: (evt, gestureState) => true,
           onMoveShouldSetPanResponderCapture: (evt, gestureState) => true,
 
